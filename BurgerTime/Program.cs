@@ -23,9 +23,23 @@ namespace BurgerTime
 
              string burgOrd = Console.ReadLine();
 
-            Console.WriteLine("You selceted a" burgOrd. " Please press <ENTER> to continue");
 
-            //return burger.Contains(burger);  <---- Might be able to use to calc order
+            while (!burgOrd == "burger" && "BURGER")
+            {
+                Console.WriteLine("You selceted a" + burgOrd + " . Please press <ENTER> to continue.");
+                    
+
+            }
+            else
+            {
+                Console.WriteLine("Yeeaaah, we don't sell" + burgOrd + " . Please stick to the menu!!");
+
+            }
+           
+
+            Console.ReadKey();
+
+            
 
 
 
